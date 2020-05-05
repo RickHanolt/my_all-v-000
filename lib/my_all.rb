@@ -8,5 +8,6 @@ def my_all?(array)
       i += 1
     else
       false
+    end
   end
 end

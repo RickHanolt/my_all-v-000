@@ -7,7 +7,7 @@ def my_all?(array)
     if yield(array[i])
       i += 1
     else
-      false
+      return false
     end
   end
 end
